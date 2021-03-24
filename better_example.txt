@@ -1,0 +1,16 @@
+.Passing.words:
+okay
+okej-good,
+okej-good-nice
+'okay'.
+"good":
+"("okay-good's;
+'("(okay-good's?)")'!
+.Not.passing.words:
+"(wrong's's)"   // double.possession/gentive
+wrong--no      // double.hyphens
+wrong-no--nono // double.hyphens.after.passed.single.hyphen
+(wrong()no)    // trash.in.middle.of.word
+"(((no)!?"    // too.few.letters
+"("wrongno)#   // invalid.word.end
+!(wrong-no)!   // invalid.word.start
